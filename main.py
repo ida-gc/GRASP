@@ -11,7 +11,7 @@ import time
 import torch.cuda.amp as amp # AMP
 
 import myutils
-from grasp import LinkPredict
+from model import LinkPredict
 from data_loader import Data
 
 def main(args):
